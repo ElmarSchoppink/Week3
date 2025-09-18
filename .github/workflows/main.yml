@@ -7,12 +7,12 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: autopilot-cluster-1    # cluster name
-  GKE_ZONE: europe-central2   # cluster zone
+  GKE_CLUSTER: autopilot-cluster-2    # cluster name
+  GKE_ZONE: us-central1   # cluster zone
   IMAGE: micro # image name
   IMAGE_TAG: test # image tag
-  GAR_ZONE: europe-central2 # artifact registry zone
-  GAR_REPO: obiwan # artifact registry repository
+  GAR_ZONE: europe-southwest1 # artifact registry zone
+  GAR_REPO: week3 # artifact registry repository
 
 jobs:
   setup-build-publish-deploy:
