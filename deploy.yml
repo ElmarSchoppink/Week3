@@ -15,7 +15,6 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: elmarschoppink/container:latest
+          image: europe-southwest1-docker.pkg.dev/unique-poetry-470811-t2/week3/micro
           ports:
           - containerPort: 80
-            hostPort: 8080
