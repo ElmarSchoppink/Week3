@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: europe-southwest1-docker.pkg.dev/unique-poetry-470811-t2/week3/micro/test
+          image: europe-southwest1-docker.pkg.dev/unique-poetry-470811-t2/week3/test:test
           ports:
           - containerPort: 80
