@@ -9,8 +9,8 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: autopilot-cluster-2    # cluster name
   GKE_ZONE: us-central1   # cluster zone
-  IMAGE: micro2 # image name
-  IMAGE_TAG: test2 # image tag
+  IMAGE: test # image name
+  IMAGE_TAG: test # image tag
   GAR_ZONE: europe-southwest1 # artifact registry zone
   GAR_REPO: week3 # artifact registry repository
 
