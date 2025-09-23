@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myfirst-deployment
+  name: green-deployment
 spec:
   replicas: 2 # Number of instances (pods) to run
   selector:
