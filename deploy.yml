@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-metadata:
+metadata:     
   name: green-deployment
 spec:
   replicas: 2 # Number of instances (pods) to run
