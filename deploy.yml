@@ -6,7 +6,7 @@ spec:
   replicas: 2 # Number of instances (pods) to run
   selector:
     matchLabels:
-      app: my-container
+      app: my-container 
       env: blue
 # everything under template is the definition of the pod that will be created.
   template:
