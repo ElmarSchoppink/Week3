@@ -28,7 +28,7 @@ metadata:
 spec:
   selector:
     app: my-container
-    env: green
+    env: blue
   ports:
   - name: http
     port: 80
